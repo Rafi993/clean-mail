@@ -74,15 +74,9 @@ input[type="submit"]:hover {
 /* MenuBar */
 
 #gbar,
-body
-  > table:nth-child(14)
-  > tbody
-  > tr:nth-child(2)
-  > td
-  > table
-  > tbody
-  > tr
-  > td:nth-child(2) {
+a[href="?&pv=tl&v=caf"],
+a[href="?&pv=tl&v=as"],
+td[width="120"] {
   display: none;
 }
 
@@ -108,15 +102,7 @@ body
 
 /* Table */
 
-body
-  > table:nth-child(15)
-  > tbody
-  > tr
-  > td
-  > table:nth-child(1)
-  > tbody
-  > tr
-  > td:nth-child(1) {
+td[bgcolor="#C3D9FF"] {
   background-color: #fff;
 }
 
@@ -129,40 +115,15 @@ td {
   border-style: hidden !important;
 }
 
-body
-  > table:nth-child(15)
-  > tbody
-  > tr
-  > td
-  > table:nth-child(1)
-  > tbody
-  > tr
-  > td:nth-child(2)
-  > form
-  > table.th
-  > tbody
-  > tr {
+form[name="f"] > table.th > tbody > tr {
   height: 2em;
 }
 
-body
-  > table:nth-child(15)
-  > tbody
-  > tr
-  > td
-  > table:nth-child(1)
-  > tbody
-  > tr
-  > td:nth-child(2)
-  > form
-  > table.th
-  > tbody
-  > tr
-  td {
+form[name="f"] > table.th > tbody > tr td {
   font-size: 0.9rem !important;
 }
 
-body > table:nth-child(15) > tbody > tr > td > table:nth-child(1) {
+form[name="f"] {
   width: 90%;
   margin: auto;
 }
@@ -213,6 +174,6 @@ body > table:nth-child(15) > tbody > tr > td > table:nth-child(1) {
 
 /* Footer */
 
-body > table:nth-child(15) > tbody > tr > td > table.ft > tbody {
+.ft {
   display: none;
 }

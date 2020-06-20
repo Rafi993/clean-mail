@@ -1,0 +1,17 @@
+{
+  "name": "clean mail",
+  "version": "0.1",
+  "description": "Clean display of your gmail",
+  "manifest_version": 2,
+  "permissions": [
+    "https://mail.google.com/mail/*",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/mail/*"],
+      "js": ["index.js"],
+      "css": ["index.css"]
+    }
+  ]
+}

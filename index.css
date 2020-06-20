@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 10px !important;
+}
+
+td {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 1rem !important;
+}
+
+font {
+  font-size: medium;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Hide gmail logo  */
+body > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(1) {
+  display: none;
+}
+
+input[name="nvp_site_mail"] {
+  display: none;
+}
+
+/* Search bar */
+
+#sbq {
+  width: 72vw;
+  margin-left: 8.7em;
+  padding: 0.1em 1em;
+  border: 1px solid #ccc;
+  height: 1.8em;
+}
+
+.search-form-submit {
+  outline: none;
+  background-color: #f2f2f2;
+  color: #000;
+  border: 1px solid #fff;
+  padding: 0.5em;
+  cursor: pointer;
+  font-size: 0.8rem;
+  padding: 0.4em 1.2em;
+  border-radius: 2px;
+}
+
+.search-form-submit:hover {
+  transition: 0.5s;
+  background-color: #cccc;
+}
+
+/* MenuBar */
+
+#gbar,
+body
+  > table:nth-child(14)
+  > tbody
+  > tr:nth-child(2)
+  > td
+  > table
+  > tbody
+  > tr
+  > td:nth-child(2) {
+  display: none;
+}
+
+#profile {
+  float: left;
+  padding: 0.4em;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#logout {
+  float: right;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.4em;
+  color: #282828;
+}
+
+.gbh,
+.gbd {
+  border: none !important;
+}
+
+/* Table */
+
+body
+  > table:nth-child(15)
+  > tbody
+  > tr
+  > td
+  > table:nth-child(1)
+  > tbody
+  > tr
+  > td:nth-child(1) {
+  background-color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: #fff !important;
+}
+
+td {
+  border-style: hidden !important;
+}
+
+body
+  > table:nth-child(15)
+  > tbody
+  > tr
+  > td
+  > table:nth-child(1)
+  > tbody
+  > tr
+  > td:nth-child(2)
+  > form
+  > table.th
+  > tbody
+  > tr {
+  height: 2em;
+}
+
+body
+  > table:nth-child(15)
+  > tbody
+  > tr
+  > td
+  > table:nth-child(1)
+  > tbody
+  > tr
+  > td:nth-child(2)
+  > form
+  > table.th
+  > tbody
+  > tr
+  td {
+  font-size: 0.9rem !important;
+}
+
+body > table:nth-child(15) > tbody > tr > td > table:nth-child(1) {
+  width: 90%;
+  margin: auto;
+}
+
+/* Footer */
+
+body > table:nth-child(15) > tbody > tr > td > table.ft > tbody {
+  display: none;
+}

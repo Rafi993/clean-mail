@@ -37,7 +37,9 @@ input[name="nvp_site_mail"] {
   height: 1.8em;
 }
 
-.search-form-submit {
+.search-form-submit,
+input[type="submit"],
+select {
   outline: none;
   background-color: #f2f2f2;
   color: #000;
@@ -49,7 +51,8 @@ input[name="nvp_site_mail"] {
   border-radius: 2px;
 }
 
-.search-form-submit:hover {
+.search-form-submit:hover,
+input[type="submit"]:hover {
   transition: 0.5s;
   background-color: #cccc;
 }

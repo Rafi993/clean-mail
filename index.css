@@ -197,6 +197,11 @@ body > table:nth-child(15) > tbody > tr > td > table:nth-child(1) {
   color: #4b4b4b;
 }
 
+.read-email font[color="#7777CC"],
+.unread-email font[color="#7777CC"] {
+  font-size: 0.8rem;
+}
+
 /* Label in email */
 
 .label {
